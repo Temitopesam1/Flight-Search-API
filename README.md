@@ -18,16 +18,19 @@ Clone this repository to your local machine:
     ```
 
 Navigate to the project directory:
+
     ```sh
         cd flight-search-api
     ```
 
 Install the dependencies:
+
     ```sh
         npm install
     ```
 
 Start the server:
+
     ```sh
         npm run dev
     ```
@@ -56,7 +59,7 @@ example request:
 - GET http://localhost:3000/api/search-flights?departureDateTime=2020-08-16T00:00
 
 example result:
-```sh
+```json
 {
     "data": [
         {
@@ -116,6 +119,7 @@ example result:
         },
         ...
     ]
-}```
+}
+```
 
 
