@@ -14,25 +14,25 @@ Welcome to the Flight Search API project! This API allows you to search for flig
 Clone this repository to your local machine:
 
     ```sh
-        git clone https://github.com/your-username/flight-search-api.git
+    git clone https://github.com/your-username/flight-search-api.git
     ```
 
 Navigate to the project directory:
 
     ```sh
-        cd flight-search-api
+    cd flight-search-api
     ```
 
 Install the dependencies:
 
     ```sh
-        npm install
+    npm install
     ```
 
 Start the server:
 
     ```sh
-        npm run dev
+    npm run dev
     ```
 
 ### Usage
