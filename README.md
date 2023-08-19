@@ -57,10 +57,13 @@ Query parameters:
 - after (optional): A cursor after refers to a random string of characters which marks a specific item in a list of data.
 
 Receive flight data in the response in JSON format.
-example request:
-- GET http://localhost:3000/api/search-flights?departureDateTime=2020-08-16T00:00
 
-example result:
+Example request with query parameter and valid value:
+```sh
+GET http://localhost:3000/api/search-flights?departureDateTime=2020-08-16T00:00
+```
+
+Example result:
 ```json
 {
     "data": [
